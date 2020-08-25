@@ -12,11 +12,13 @@ body {
 }
 
 img{
+    float: right;
     border: rgb(85, 12, 12) 3px solid  ;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    color: rgb(74, 74, 126);
 
 }
 
