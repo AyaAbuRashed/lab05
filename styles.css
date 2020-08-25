@@ -1,27 +1,35 @@
 h1,H2 {
-border: 5px solid black;
+color: white;
 text-align: center;
+background-color: rgb(85, 12, 12);
 
 }
+
 body {
     background-attachment: fixed;
     background-color: gray;
 
 }
+
 img{
-    
+    border: rgb(85, 12, 12) 3px solid  ;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
 
 }
+
 ul li {
     display: inline;
-    
-    
+    margin-left: 5px;
 
       }
-p { font-style: italic ;
-font-size: 5px;
+ul {  
+    text-align: center;  
+}
+
+p { color: white;
+    font-style: italic ;
+    font-size: 20px;
 }
