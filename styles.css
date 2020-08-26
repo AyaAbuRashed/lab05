@@ -1,14 +1,36 @@
-h1,H2 {
+h1 {
 color: white;
 text-align: center;
-background-color: rgb(85, 12, 12);
 
+
+}
+a{color: white;}
+h4{
+    color: white;
+    text-align: center;  
+}
+h2,h3,p
+{   color: white;
+    text-align: center;
+    border-top : 1px solid white;}
+
+*{
+    background-color: black;
 }
 
 body {
     background-attachment: fixed;
-    background-color: gray;
+    
 
+}
+
+#a{
+border-bottom: 1px solid white;
+height:10% ;
+width: 17%;
+border: none;
+display: inline;
+float: left
 }
 
 img{
@@ -18,6 +40,7 @@ img{
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    height: 30%;
     color: rgb(74, 74, 126);
 
 }
