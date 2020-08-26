@@ -1,5 +1,5 @@
 
-var age=prompt("enter your age");
+//var age=prompt("enter your age");
 var Advice;
 
 
@@ -21,9 +21,33 @@ function A(age)
     }
   document.write('<h3>This is our advice for you ^-^' + Advice + '</h3>');
 
-    return Advice;
-
-
-}
-
-A(age);
+    return Advice;}
+  
+    var showOrder = function () {
+      var userInput = prompt('Choose new or used car');
+     
+      //the userInput should equal to house or hotel only
+      while (userInput !== "new" && userInput !== 'used' ) {
+        userInput = prompt('Choose new or used car ');
+        
+      }
+      //input
+      var userOrder = "";
+      var numberOfImage = prompt("how many images do you want to print");
+      //numberOfImage = 3
+      for (var count = 0; count < numberOfImage; count++) {
+        if (userInput == "new") {
+           document.write("<img src='https://saudishift.com/wp-content/uploads/2019/10/Mercedes_CClass_2020_silver_1.jpg' alt=''>");
+          userOrder = userOrder + "<img src='https://saudishift.com/wp-content/uploads/2019/10/Mercedes_CClass_2020_silver_1.jpg' alt=''>";
+          console.log(userOrder);
+        }
+        else if (userInput == "used") {
+           document.write("<img src='https://i2.wp.com/clark.com/wp-content/uploads/2019/05/used-car-image.png?fit=1200%2C630&ssl=1' alt=''>");
+          userOrder = userOrder + "<img src='https://i2.wp.com/clark.com/wp-content/uploads/2019/05/used-car-image.png?fit=1200%2C630&ssl=1' alt=''>";
+          console.log(userOrder);
+        }
+      }
+      //output
+      return userOrder;
+    }
+showOrder();
