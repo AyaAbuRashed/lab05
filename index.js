@@ -1,5 +1,5 @@
 
-//var age=prompt("enter your age");
+var age=prompt("enter your age");
 var Advice;
 
 
